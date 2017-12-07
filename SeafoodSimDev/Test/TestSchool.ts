@@ -100,7 +100,7 @@ class TestSchool {
         });
         QUnit.test("Mackerel: age function", function (assert) {
             var singeMackerel: Mackerel;
-            var count: number = 0:
+            var count: number = 0;
             do {
                 singeMackerel = new Mackerel(1, startPosition);
                 count++;
